@@ -1,12 +1,7 @@
 # Basic
 title: 褚毅博
-subtitle: 
-welcome_message: 欢迎来到我的博客
-creator: <a href="http://www.GcsSloop.com">@GcsSloop</a>
-
-url: "http://www.gcssloop.com"
-
-permalink: /:categories/:title
+subtitle: 个人站
+welcome_message: 欢迎来到我的个人站~
 
 # Format
 highlighter: rouge
@@ -15,26 +10,10 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
-
-    
-
-gems:
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-redirect-from
+cover_color: empty
 
 # Pagination
 paginate: 10
 paginate_path: "page/:num/"
 
-# Comment
-comment:
-    disqus: GcsSloop
-    # duoshuo:
-# Social
 
-# Google Analytics
-ga:
-    id: UA-82493667-1
-    host: www.gcssloop.com
