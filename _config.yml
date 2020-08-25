@@ -1,7 +1,13 @@
 # Basic
 title: 褚毅博
-subtitle: 个人站
-welcome_message: 欢迎来到我的个人站~
+subtitle: Just do IT later.
+welcome_message: 欢迎来到我的个人站
+description: 一个普普通通的开发这，在这里记录自己的点点滴滴，记录自己技术的成长历程。
+creator: <a href="http://www.GcsSloop.com">@GcsSloop</a>
+
+url: "http://www.gcssloop.com"
+
+permalink: /:categories/:title
 
 # Format
 highlighter: rouge
@@ -10,10 +16,29 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: empty
+cover_color: slate
+
+blog_button:
+    title: 进入博客
+    description: 
+
+    
+
+
+gems:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-redirect-from
 
 # Pagination
 paginate: 10
 paginate_path: "page/:num/"
 
-
+# Comment
+comment:
+    disqus: GcsSloop
+    # duoshuo:
+# Social
+social:
+    github: chuyibo
+    mail: 604923554@qq.com
