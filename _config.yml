@@ -2,7 +2,6 @@
 title: 褚毅博
 subtitle: 
 welcome_message: 欢迎来到我的博客
-description: 人情势力古犹今，谁识自古英雄是白身！
 creator: <a href="http://www.GcsSloop.com">@GcsSloop</a>
 
 url: "http://www.gcssloop.com"
@@ -18,9 +17,6 @@ redcarpet:
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: slate
 
-blog_button:
-    title: 博客
-    description: 访问博客
     
 
 gems:
@@ -37,13 +33,6 @@ comment:
     disqus: GcsSloop
     # duoshuo:
 # Social
-social:
-    weibo: GcsSloop
-    github: GcsSloop
-    twitter: GcsSloop
-    rss: /feed.xml
-    mail: GcsSloop@gmail.com
-    copyright: http://choosealicense.online
 
 # Google Analytics
 ga:
