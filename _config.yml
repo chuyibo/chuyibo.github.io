@@ -1,8 +1,8 @@
 # Basic
 title: 褚毅博
 subtitle: 
-welcome_message: 
-description: 
+welcome_message: 欢迎来到我的博客
+description: 人情势力古犹今，谁识自古英雄是白身！
 creator: <a href="http://www.GcsSloop.com">@GcsSloop</a>
 
 url: "http://www.gcssloop.com"
@@ -21,13 +21,7 @@ cover_color: slate
 blog_button:
     title: 博客
     description: 访问博客
-
-nav:
-    - {title: GitHub,     in_site: false,  description: GcsSloop's GitHub,    url: 'https://github.com/GcsSloop'}
-    - {title: 目录,        in_site: true,  description: 博客目录,               url: '/timeline'}
-    - {title: 关于,        in_site: true,  description: 关于作者 GcsSloop,       url: '/info/about'}
     
-
 
 gems:
     - jekyll-paginate
