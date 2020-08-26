@@ -28,6 +28,7 @@ $(document).ready(function() {
       $('.panel-cover__divider panel-cover__divider--secondary').hide();
       $('.panel-cover__description').hide();
       $('#join').hide();
+      console.log("继续阅读");
   });
 
   if (window.location.hash && window.location.hash == "#blog") {
