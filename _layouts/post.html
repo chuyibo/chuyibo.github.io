@@ -8,7 +8,6 @@ layout: default
       <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> &#8226; <span class="post-meta__tags tags">{{page.tags}}</span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
 </span>
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
   <section class="post">
@@ -19,9 +18,14 @@ layout: default
 {% include contribute.html %}
 {% include comments.html %}
 
-<!--
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
--->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js">
+    // 添加注释
+    $('.panel-cover__divider').hide();
+    $('.panel-cover__description').hide();
+    $('.panel-cover__divider panel-cover__divider--secondary').hide();
+    $('.panel-cover__description').hide();
+    $('#join').hide();
+</script>
 <!-- OneV's Den -->
 <!--
 <ins class="adsbygoogle"
