@@ -35,7 +35,7 @@ $(document).ready(function() {
       $('#join').hide();
   }
 
-    console.log(window.url)；
+    console.log(window.url);
 
 
   if (window.location.pathname.substring(0, 5) == "/tag/") {
