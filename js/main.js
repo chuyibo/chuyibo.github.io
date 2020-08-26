@@ -8,11 +8,11 @@ $(document).ready(function() {
     currentWidth = $('.panel-cover').width();
 
       // 添加注释
-      $('.panel-cover__divider').hide(1000);
-      $('.panel-cover__description').hide(1000);
-      $('.panel-cover__divider panel-cover__divider--secondary').hide(1000);
-      $('.panel-cover__description').hide(1000);
-      $('.navigation').hide(1000);
+      $('.panel-cover__divider').hide();
+      $('.panel-cover__description').hide();
+      $('.panel-cover__divider panel-cover__divider--secondary').hide();
+      $('.panel-cover__description').hide();
+      $('.navigation__item').hide();
 
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
