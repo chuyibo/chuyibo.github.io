@@ -33,6 +33,8 @@ $(document).ready(function() {
       $('#join').hide();
   }
 
+  console.log("哈希值： " + window.location.hash);
+
   if (window.location.pathname.substring(0, 5) == "/tag/") {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
