@@ -5,8 +5,7 @@ layout: default
 <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="post-meta" style="font-size:.8em">
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> &#8226; <span class="post-meta__tags tags">{{page.tags}}</span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
-</span>
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> &#8226; <span class="post-meta__tags tags">{{page.tags}}</span><span id="busuanzi_value_page_pv"></span></span>
     </div>
   </header>
 
@@ -27,6 +26,9 @@ layout: default
     $('.panel-cover__divider panel-cover__divider--secondary').hide();
     $('.panel-cover__description').hide();
     $('#join').hide();
+    $("p").css({
+        "align":"justify"
+    });
 </script>
 <!-- OneV's Den -->
 <!--
