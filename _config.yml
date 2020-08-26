@@ -1,8 +1,8 @@
 # Basic
-title: 褚毅博
+title: GcsSloop
 subtitle: Just do IT later.
-welcome_message: 欢迎来到我的个人站
-description: 一个普普通通的开发人员，记录自己技术的成长历程，在通往全栈的道路上我披荆斩棘。
+welcome_message: 欢迎来到我的魔法世界! 
+description: 嗨，我是 GcsSloop，一名来自2.5次元的魔法师，Android自定义View系列文章作者，非著名程序员。
 creator: <a href="http://www.GcsSloop.com">@GcsSloop</a>
 
 url: "http://www.gcssloop.com"
@@ -19,9 +19,13 @@ redcarpet:
 cover_color: slate
 
 blog_button:
-    title: 进入博客
-    description: 
+    title: 博客
+    description: 访问博客
 
+nav:
+    - {title: GitHub,     in_site: false,  description: GcsSloop's GitHub,    url: 'https://github.com/GcsSloop'}
+    - {title: 目录,        in_site: true,  description: 博客目录,               url: '/timeline'}
+    - {title: 关于,        in_site: true,  description: 关于作者 GcsSloop,       url: '/info/about'}
     
 
 
@@ -40,5 +44,14 @@ comment:
     # duoshuo:
 # Social
 social:
-    github: chuyibo
-    mail: 604923554@qq.com
+    weibo: GcsSloop
+    github: GcsSloop
+    twitter: GcsSloop
+    rss: /feed.xml
+    mail: GcsSloop@gmail.com
+    copyright: http://choosealicense.online
+
+# Google Analytics
+ga:
+    id: UA-82493667-1
+    host: www.gcssloop.com

@@ -1,13 +1,13 @@
 <!--阅读更多-->
 <section class="read-more">
-  <!--{% if page.next %}
+  {% if page.next %}
   {% assign current = page.next %}
   <div class="read-more-item">
     <span class="read-more-item-dim">最近的文章</span>
     <h2 class="post-list__post-title post-title"><a href="{{ current.url }}" title="link to {{ current.title }}">{{ current.title }}</a></h2>
     <p class="excerpt">{{ current.content | markdownify | strip_html | strip_newlines | truncate: 100 }}&hellip;</p>
     <div class="post-list__meta">
-      <time datetime="{{current.date | date: date_to_xmlschema}}" class="post-list__meta&#45;&#45;date date">{{current.date | date: "%F"}}</time> &#8226; <span class="post-list__meta&#45;&#45;tags tags">{{current.category}}</span>
+      <time datetime="{{current.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{current.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{current.category}}</span>
       <br/><br/>
       <a style="float:none; margin:0 auto;" class="btn-border-small" href={{current.url}}>继续阅读</a></div>
    </div>
@@ -20,10 +20,10 @@
        <h2 class="post-list__post-title post-title"><a href="{{ current.url }}" title="link to {{ current.title }}">{{ current.title }}</a></h2>
        <p class="excerpt">{{ current.content | markdownify | strip_html | strip_newlines | truncate: 100 }}&hellip;</p>
        <div class="post-list__meta">
-          <time datetime="{{current.date | date: date_to_xmlschema}}" class="post-list__meta&#45;&#45;date date">{{current.date | date: "%F"}}</time> &#8226; <span class="post-list__meta&#45;&#45;tags tags">{{current.category}}</span>
+          <time datetime="{{current.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{current.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{current.category}}</span>
           <br/><br/>
           <a style="float:none; margin:0 auto;" class="btn-border-small" href={{current.url}}>继续阅读</a>
        </div>
    </div>
-   {% endif %}-->
+   {% endif %}
 </section>
