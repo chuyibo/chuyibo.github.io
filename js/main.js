@@ -25,6 +25,12 @@ $(document).ready(function() {
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
+      // 添加注释
+      $('.panel-cover__divider').hide();
+      $('.panel-cover__description').hide();
+      $('.panel-cover__divider panel-cover__divider--secondary').hide();
+      $('.panel-cover__description').hide();
+      $('.blog-button').hide();
   }
 
   if (window.location.pathname.substring(0, 5) == "/tag/") {
