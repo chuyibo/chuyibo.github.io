@@ -22,6 +22,14 @@ $(document).ready(function() {
     }
   });
 
+  $('a.btn-border-small').click(function () {
+      $('.panel-cover__divider').hide();
+      $('.panel-cover__description').hide();
+      $('.panel-cover__divider panel-cover__divider--secondary').hide();
+      $('.panel-cover__description').hide();
+      $('#join').hide();
+  });
+
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
@@ -33,7 +41,6 @@ $(document).ready(function() {
       $('#join').hide();
   }
 
-  console.log("哈希值： " + window.location.hash);
 
   if (window.location.pathname.substring(0, 5) == "/tag/") {
     $('.panel-cover').addClass('panel-cover--collapsed');
