@@ -22,7 +22,7 @@ $(document).ready(function() {
     }
   });
 
-  $('a.btn-border-small').click(function () {
+  $('btn-border-small').click(function () {
       $('.panel-cover__divider').hide();
       $('.panel-cover__description').hide();
       $('.panel-cover__divider panel-cover__divider--secondary').hide();
