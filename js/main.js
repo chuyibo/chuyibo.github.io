@@ -12,11 +12,11 @@ $(document).ready(function() {
       $('.panel-cover').css('max-width',currentWidth);
       $('.panel-cover').animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {} );
     }
-      $('.panel-cover__divider').hide();
-      $('.panel-cover__description').hide();
-      $('.panel-cover__divider panel-cover__divider--secondary').hide();
-      $('.panel-cover__description').hide();
-      $('.navigation').hide();
+      $('.panel-cover__divider').hide(1000);
+      $('.panel-cover__description').hide(1000);
+      $('.panel-cover__divider panel-cover__divider--secondary').hide(1000);
+      $('.panel-cover__description').hide(1000);
+      $('.navigation').hide(1000);
   });
 
   if (window.location.hash && window.location.hash == "#blog") {
