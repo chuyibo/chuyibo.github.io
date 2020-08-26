@@ -6,17 +6,20 @@ $(document).ready(function() {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
     $('.main-post-list').removeClass('hidden');
     currentWidth = $('.panel-cover').width();
+
+      // 添加注释
+      $('.panel-cover__divider').hide(1000);
+      $('.panel-cover__description').hide(1000);
+      $('.panel-cover__divider panel-cover__divider--secondary').hide(1000);
+      $('.panel-cover__description').hide(1000);
+      $('.navigation').hide(1000);
+
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
       $('.panel-cover').animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {} );
     }
-      $('.panel-cover__divider').hide(1000);
-      $('.panel-cover__description').hide(1000);
-      $('.panel-cover__divider panel-cover__divider--secondary').hide(1000);
-      $('.panel-cover__description').hide(1000);
-      $('.navigation').hide(1000);
   });
 
   if (window.location.hash && window.location.hash == "#blog") {
