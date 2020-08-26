@@ -12,7 +12,7 @@ $(document).ready(function() {
       $('.panel-cover__description').hide();
       $('.panel-cover__divider panel-cover__divider--secondary').hide();
       $('.panel-cover__description').hide();
-      $('.navigation__item').hide();
+      $('.blog-button').hide();
 
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
