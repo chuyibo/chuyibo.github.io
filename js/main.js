@@ -22,14 +22,7 @@ $(document).ready(function() {
     }
   });
 
-  $('btn-border-small').click(function () {
-      $('.panel-cover__divider').hide();
-      $('.panel-cover__description').hide();
-      $('.panel-cover__divider panel-cover__divider--secondary').hide();
-      $('.panel-cover__description').hide();
-      $('#join').hide();
-      console.log("继续阅读");
-  });
+
 
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
@@ -41,6 +34,8 @@ $(document).ready(function() {
       $('.panel-cover__description').hide();
       $('#join').hide();
   }
+
+    console.log(window.url)；
 
 
   if (window.location.pathname.substring(0, 5) == "/tag/") {
