@@ -1,4 +1,4 @@
-Gemfile.lock
-/_site/*
-/.sass-cache/*
-/.idea
+_drafts/
+_site/
+.DS_Store
+*.swp
