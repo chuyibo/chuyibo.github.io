@@ -85,23 +85,17 @@ started dedicating full time effort to GitHub. It was do or die time. Either
 pick GitHub and go for it, or make the safe choice and quit GitHub to make
 wheelbarrows full of cash at Microsoft.
 
-If you want a recipe for restless sleep, I can give you one. Add one part "what
-will my wife think" with 3,000 parts Benjamin Franklin; stir in a "beer anytime
-you damn well please" and top with a chance at financial independence.
+```
+public class OrderStoreAdapter extends BaseQuickAdapter<OrderStoreGoodsBean, BaseViewHolder> {
 
-I've become pretty good at giving my employers the bad news that I'm leaving the
-company to go do something cooler. I broke the news to my boss at Powerset on
-the day the employment offer was due. I told him I was quitting to go work full
-time on GitHub. Like any great boss, he was bummed, but understanding. He didn't
-try to tempt me with a bigger bonus or anything. I think deep down he knew I was
-going to leave. I may have even received a larger incentive to stay than others,
-on account of my being a flight risk. Those Microsoft managers are crafty, I
-tell you. They've got retention bonuses down to a science. Well, except when you
-throw an entrepreneur, the singularity of the business world, into the mix.
-Everything goes wacky when you've got one of those around.
+    public OrderStoreAdapter(int layoutResId) {
+        super(layoutResId);
+    }
 
-In the end, just as Indiana Jones could never turn down the opportunity to
-search for the Holy Grail, I could no less turn down the chance to work for
-myself on something I truly love, no matter how safe the alternative might be.
-When I'm old and dying, I plan to look back on my life and say "wow, that was an
-adventure," not "wow, I sure felt safe."
+    @Override
+    protected void convert(@NotNull BaseViewHolder holder, OrderStoreGoodsBean orderStoreGoodsBean) {
+
+    }
+}
+```
+
