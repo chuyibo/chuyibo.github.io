@@ -17,11 +17,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="51aaf5ef-f53b-429f-a9b1-41de8870e088" name="Default Changelist" comment="" />
@@ -30,16 +46,17 @@
       <option name="presentableId" value="Default" />
       <updated>1602841663872</updated>
       <workItem from="1602841664905" duration="1471000" />
+      <workItem from="1603110447903" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1602841715427">
+    <state x="662" y="252" width="647" height="536" key="find.popup" timestamp="1603110577393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602841715427" />
+    <state x="662" y="252" width="647" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603110577393" />
   </component>
 </project>
