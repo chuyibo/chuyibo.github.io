@@ -169,11 +169,7 @@ ul.posts {
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
-
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    padding-bottom: 0.3em;
-    padding-top: -0.6em;
+    padding: 0.2em;
   }
 
     #post pre code {
