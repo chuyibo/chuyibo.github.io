@@ -39,5 +39,5 @@ module.exports = {
 };
 </div></pre>
 
-<p alient="justify">css-loader 能够解析 css 文件，以字符串的形式打包进 js 文件中，css-loader 的打包结果作为 style-loader 的参数，stype-loader 通过动态生成 stype 标签的形式将字符串样式代码插入到 HTML 文件中。</p>
+<p alient="justify">css-loader 能够解析 css 文件，以字符串的形式打包进 js 文件中，css-loader 的打包结果作为 style-loader 的参数，stype-loader 通过动态生成 stype 标签的形式将字符串样式代码插入到 html 文件中。</p>
 
