@@ -1,12 +1,16 @@
 ---
 layout: post
-title: 前端自动化构建工具 - Webpack 使用（一）- 构建 CSS 模块
+title: 前端自动化构建工具 - Webpack 使用（一）
 ---
 
-{{ page.title }}
+{{ Webpack 构建 CSS 样式 }}
 ================
 
 <p class="meta">30 Oct 2020 - zhengzhou</p>
+
+<pre><div id="code">npm install webpack webpack-cli -D
+npm install css-loader style-loader -D
+</div></pre>
 
 <pre><div id="code">div {
     background: blue;
@@ -34,4 +38,6 @@ module.exports = {
     mode: 'none'
 };
 </div></pre>
+
+<p alient="justify">css-loader 能够解析 CSS 文件，以字符串的形式打包进 JS 文件中，css-loader 的打包结果作为 style-loader 的参数，stype-loader 通过动态生成 stype 标签的形式将字符串样式代码插入到 HTML 文件中。</p>
 
