@@ -13,13 +13,9 @@ title: 前端自动化构建工具 - Webpack 使用（一）- 构建 CSS 模块
 }
 </div></pre>
 
-<div heigth: 40px></div>
-
 <pre><div id="code">import './index.css'
 ...
 </div></pre>
-
-<div heigth: 40px></div>
 
 <pre><div id="code">var path = require('path');
 
