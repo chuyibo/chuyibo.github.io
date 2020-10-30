@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 前端自动化构建工具 - Webpack 使用（一）
+title: 前端自动化构建工具 - webpack 使用（一）
 ---
 
-前端自动化构建工具 - Webpack 使用（一） - 构建 css 样式
+前端自动化构建工具 - webpack 使用（一）- 构建 css 样式
 ================
 
 <p class="meta">30 Oct 2020 - zhengzhou</p>
