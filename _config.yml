@@ -136,7 +136,7 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  home: home
+  home: leaf
   about: user
   categories: th
   schedule: calendar
