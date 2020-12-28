@@ -139,7 +139,7 @@ menu_icons:
   home: leaf
   about: user
   categories: th
-  schedule: calendar
+  schedule: calendar-check-o
   tags: anchor
   archives: archive
   sitemap: sitemap
