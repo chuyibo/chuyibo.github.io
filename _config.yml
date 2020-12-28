@@ -94,6 +94,8 @@ authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: false
+powered-by: false
+theme-info: false
 
 # ---------------------------------------------------------------
 # SEO Settings
